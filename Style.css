@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+.All-Content{
+    background: #f7f5f2;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #b2744c;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+/*Navbar Start*/
+#navbar{
+    background-color: #b2744c;
+}
+#logo img{
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 120px; 
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 8px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    color: black;
+    border-radius: 5px;
+}
+#navbar button{
+    background: #000;
+    color: white;
+    border: 1px solid white;
+}
+/*Navbar End*/
+
+
+/*Home Section Start*/
+#home{
+    width: 100%;
+    height: 91vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3) rgba(0,0,0,0.2));
+    background-image: url(./bc3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:88%;
+}
+#home .content{
+    padding-top: 150px;
+    margin-left: 55px;
+}
+#home .content h3{
+    font-size: 50px;
+    color: white;
+}
+#home .content p{
+    color: white;
+    margin-top: 10px;
+}
+#btn{
+    width: 150px;
+    height: 36px;
+    cursor: pointer;
+    background: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+#btn:hover{
+    background:#b2744c;
+    color: white;
+    width: 160px;
+}
+@media(max-width:450px){
+    #home .content h3{
+        font-size: 30px;
+    }  
+}
+/*Home Section end*/
+
+/*about section start*/
+#about{
+    width: 100%;
+}
+#about .container{
+    padding-top: 70px;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: black;
+}
+.heading span{
+    color: #b2744c;
+}
+#about .card{
+    border-radius: 10px;
+}
+#about .card img{
+    border-radius: 10px;
+}
+#about .about-btn{
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    border-radius: 5px;
+    color: #b2744c;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+}
+#about .about-btn:hover{
+    background: #b2744c;
+    color: white;
+}
+@media(max-width:768px){
+    #about p{
+        font-size: 15px;
+    }
+    #about .about-btn{
+        margin-bottom: 20px;
+    }
+}
+/*about section end*/
+
+
+/*top Card Section Start*/
+#top-card{
+    width: 100%;
+    background: #f7f5f2;
+    margin-top: 70px;
+}
+.heading2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.heading2 span{
+    color: #b2744c;
+}
+#top-card .container{
+    margin-top: 30px;
+}
+#top-card .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#top-card .card img{
+    border-radius: 10px;
+}
+#top-card .card:hover{
+    transform: translateY(-10px);
+}
+/*top Card section End*/
+
+
+/*menu card start*/
+.menu{
+    width: 100%;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: #b2744c;
+    border-bottom: 2px solid #b2744c;
+}
+#container2{
+    margin-top: 50px;
+}
+#menu .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i{
+    color: #b2744c;
+}
+#menu h3{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    color: #b2744c;
+}
+#menu p{
+    font-size: 16px;
+    padding-top: 10px;
+    color: #b2744c;
+}
+#menu p span{
+    float: right;
+    cursor: pointer;
+}
+/*menu card end*/
+
+
+/*Product section start*/
+#product{
+    width: 100%;
+}
+
+.heading4{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    font-weight: bold;
+    color: #b2744c;
+    border-bottom: 2px solid #b2744c;
+}
+#container3{
+    margin-top: 30px;
+}
+#product h3{
+    text-align: center;
+    font-size: 23px;
+    color: #b2744c;
+}
+#product p{
+    color: #b2744c;
+    padding-top: 10px;
+}
+#product p span{
+    float: right;
+    cursor: pointer;
+}
+#container3 .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+#container3 .card img{
+    margin-top: 20px;
+}
+/*product section end*/
+
+
+
+/*gallary section start*/
+#gallary{
+    width: 100%;
+}
+.heading5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+    color: #000;
+}
+.heading5 span{
+    color: #b2744c;
+}
+#gallary .card{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#gallary .card img{
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+#gallary .card:hover{
+    transform: translateY(-10px);
+}
+/*gallry section end*/
+
+
+/*contact section start*/
+#contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%,#b2744c 20%);
+    border-radius: 10px;
+}
+.heading6{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.heading6 span{
+    color: #b2744c;
+}
+#contact p{
+    font-weight: bold;
+    color: #000;
+    font-size: 13px;
+}
+#contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #b2744c;
+}
+.contact-btn{
+    width: 200px;
+    height: 36px;
+    background: #b2744c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#col{
+    width: 40%;
+    height: 56vh;
+    background: #000;
+    margin-top: 78px;
+}
+#col h1{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#col p{
+    margin-left: 13px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+}
+@media screen and (max-width:766px){
+    #contact .container{
+        background: white;
+    }
+    #col{
+        width: 100%;
+        background: #b2744c;
+    }
+    #contact{
+        height: 150vh;
+    }
+}
+@media screen and (max-width:400px){
+    #contact input{
+        width: 250px;
+    }
+}
+/*contact section end*/
+
+
+
+/*Blog section start*/
+#blog{
+    width: 100%;
+}
+.heading7{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.heading7 span{
+    color: #b2744c;
+}
+#blog .container{
+    margin-top: 60px;
+}
+#blog h5{
+    color: #b2744c;
+}
+.blog-btn{
+    width: 200px;
+    height: 36px;
+    color: white;
+    border: none;
+    background: #b2744c;
+    cursor: pointer;
+}
+/*blog section end*/
+
+
+
+/*footer section start*/
+#footer{
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+}
+.footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.social-link i{
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+.creadit{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+}
+.creadit a{
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.creadit a span{
+    color: #000;
+}
+/*footer section end*/
+
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+}
